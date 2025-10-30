@@ -15,29 +15,12 @@
         text-align: center;
         margin: auto;
     }
-#pessoas{
-    text-align: center;
-
-}
-.Final{
-    border: 15px solid gray;
-    border-radius: 30px;
-    width: 60%;
-    background-color: white;
-    text-align: left;
-    margin: 0 auto 39px auto;
-    
-}
 .texto{
     margin: 0px 0px 0px 15px;
     font-size: 25px;
     font-weight: 400;
 }
 
-.imagem{
-    width: 320px;
-    height: 320px;
-}
 #inicio{
     text-align: center;
 }
@@ -67,33 +50,136 @@
     box-sizing: border-box;
     margin: auto;
 }
-
-#foto1{
+.imagem{
+    width: 320px;
+    height: 320px;
+}
+#fotosobremim{
 background-image: url("./WhatsApp\ Image\ 2025-05-29\ at\ 11.15.42.jpeg");
 background-size: cover;
 margin: 25px auto auto auto;
 }
-#foto2{
-background-image: url("./WhatsApp\ Image\ 2025-05-29\ at\ 11.15.57.jpeg");
+
+#foto1{
+background-image: url("./HTML5_logo_and_wordmark.svg.png");
 background-size: cover;
-margin: auto auto 20px;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+
+#foto2{
+background-image: url("./CSS3_logo_and_wordmark.svg.png");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
 }
 #foto3{
-background-image: url("./WhatsApp\ Image\ 2025-05-29\ at\ 11.16.18.jpeg");
+background-image: url("./javascript-logo.png");
 background-size: cover;
-margin: auto auto 20px;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
 }
 #foto4{
-background-image: url("./WhatsApp\ Image\ 2025-05-29\ at\ 11.18.08.jpeg");
+background-image: url("./Inkscape_Logo.svg.png");
 background-size: cover;
-margin: auto auto 20px;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+#foto5{
+background-image: url("./Captura\ de\ tela\ 2025-10-30\ 121120.png");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+#foto6{
+background-image: url("./images.png");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+#foto7{
+background-image: url("./images\ \(3\).png");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+#foto8{
+background-image: url("./linguagem-C.png");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+#foto9{
+background-image: url("./images\ \(1\).png");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+#foto10{
+background-image: url("./Captura\ de\ tela\ 2025-10-30\ 120130.png");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+#foto11{
+background-image: url("./Captura\ de\ tela\ 2025-10-30\ 115928.png");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+#foto12{
+background-image: url("./Captura\ de\ tela\ 2025-10-30\ 120024.png");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+width: 60px;
+height: 60px;
+border-radius: 15px;
+}
+#skillssei{
+    display: flex;
+    flex-direction: row;
+}
+#skillsaprender{
+    display: flex;
+    flex-direction: row;
 }
 h3{
     font-size: 35px;
     font-weight: 900;
-}
-#titulofinal{
-    font-weight: 700;
 }
 
 h4{
@@ -160,6 +246,11 @@ font-size: 20px;
     text-align: justify;
     margin: 20px 10px auto 10px;
 }
+.Skills{
+    background-color: white;
+    border: 5px solid gray;
+    margin: 40px auto 40px auto;
+}
 @media(min-width: 768px)
 {
     .Origem{
@@ -200,7 +291,7 @@ font-size: 20px;
         <img id="p" src="./73004469-elemento-de-modelo-de-design-de-sinal-de-letra-p-cone-preto-com-caminho-de-sombra-de-estilo-plano.jpg"
         height="79px"><div id="links">
            <a href="#lembranças"> Sobre mim </a>
-           <a href="#pessoas"> Skills </a>
+           <a href="#Skills"> Skills </a>
            <a href="#contato"> Contate-me </a>
     </div>
     </header>
@@ -217,12 +308,10 @@ font-size: 20px;
     </div>
     </div>
 </section>
-
-
 <section id="lembranças">
     <div>
         <div class="imagemlembrança">
-        <div id="foto1" class="imagem">
+        <div id="fotosobremim" class="imagem">
         </div>
         <h4> Sobre mim </h4>
         <p id="sobremim"> Eu tenho 15 anos, moro em Ivatuba no Paraná des de que eu nasci e nesse ano começei a aprender TI no colégio da FAP</p>
@@ -231,18 +320,42 @@ font-size: 20px;
 </section>
 
 
-<section id="pessoas">
-        <h3> Pessoas, coisas ou sonhos </h3>
-        <div class="Final">
-            <img id="fotofinal" src="https://s1.static.brasilescola.uol.com.br/img/2019/05/paris.jpg" alt=""
-            height="158">
-          <div class="texto">  
-            <p id="titulofinal"> Viajar a Europa </p>
-            <p> Eu, quando ficasse mais velho gostaria de viajar pela Europa,
-                passear pelos países mais conhecidos como a Espanha, Itália, França e andar
-                por seus conhecidos pontos túristicos e ter essa experiência para compartilhar. </p></div>
+<section class="Skills">
+    <div>
+        <h3>Skills</h3>
+        <h4>Sei/Aprendendo</h4>
+        <div id="skillssei">
+        <div id="foto1" class="imagem">
         </div>
-    
+        <div id="foto2" class="imagem">
+        </div>
+        <div id="foto3" class="imagem">
+        </div>
+        <div id="foto4" class="imagem"></div>
+        </div>
+        <h4>Quero aprender</h4>
+        <div id="skillsaprender">
+            <div id="foto5" class="imagem">
+            </div>
+            <div id="foto6" class="imagem">
+            </div>
+            <div id="foto7" class="imagem">
+            </div> 
+            <div id="foto8" class="imagem">
+            </div>
+        
+        </div>
+        <h4>Outras Skills</h4>
+        <div id="skillsaprender">
+            <div id="foto9" class="imagem">
+            </div>
+            <div id="foto10" class="imagem">
+            </div>
+            <div id="foto11" class="imagem">
+            </div> 
+            <div id="foto12" class="imagem">
+            </div>
+    </div>
 </section>
 
 <section id="contato">
