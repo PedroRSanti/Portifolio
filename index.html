@@ -36,14 +36,12 @@
     
     border-radius: 30px;
     width: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
     margin: 0 auto;
 }
 #escritacmç{
     display: block;
-    margin: 0px 25px 0px 15px;
+    margin: 0px 0px 0px 15px;
     font-size: 35px;
     font-weight:700;
 }
@@ -64,10 +62,15 @@
     height: 320px;
 }
 #fotosobremim{
-    width: 300px;
-    height: 300px;
-    margin: 0px 20px 0px 40px;
+background-image: url("./WhatsApp\ Image\ 2025-05-29\ at\ 11.15.42.jpeg");
+background-size: cover;
+margin: 14px;
+border: 5px solid black;
+margin: 25px auto auto auto;
+width: 200px;
+height: 200px;
 }
+
 #foto1{
 background-image: url("./HTML5_logo_and_wordmark.svg.png");
 background-size: cover;
@@ -232,6 +235,12 @@ font-size: 20px;
     height: 60px;
     margin: 14px;
 }
+.imagemskills:hover{
+    transform: translateY(-5px);
+}
+#p:hover{
+    transform: rotate(45deg);
+}
 .textoskill{
     text-align: center;
 }
@@ -246,21 +255,23 @@ font-size: 20px;
 .botao:hover{
     background-color: red;
     color: gray;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     width: 250px;
     height: 210px;
-    transform: scale(-10.5);
 }
 #escritasobremim{
     text-align: center;
+}
+#minhafoto:hover{
+    transform: scale(0.9);
 }
 @media(min-width: 768px)
 {
     .Origem{
         width: 55%;
         display: flex;
-        
+        flex-direction:row-reverse;
     }
     .começo{
         width: 45%;
@@ -268,7 +279,6 @@ font-size: 20px;
     .imagemlembrança{
         display: flex;
         flex-direction: row;
-
     }
     h3{
         font-size: 60px;
@@ -293,19 +303,20 @@ font-size: 20px;
         display: flex;
     }
     #Skills{
-        margin: 90px 350px 90px 350px;
+        margin: 90px 450px 90px 450px;
         text-align: center;
     }
     .imagemskills{
-    width: 120px;
-    height: 120px;
-    margin: 20px 57px 0px 57px;
+    width: 160px;
+    height: 160px;
+    margin: 20px 35px 0px 35px;
     }
     #contato{
         margin: 90px 450px 50px 450px;
     }
     #lembranças{
-margin: 90px 450px 50px 450px;
+margin:20px auto auto auto;
+width: 90%;
     }
     #escritasobremim{
         display: flex;
@@ -328,9 +339,9 @@ margin: 90px 450px 50px 450px;
     .contatoescrita{
         font-size: 30px;
     }
-    #fotosobremim{
-    margin: 12px 30px 14px 12px;
-}
+    #sobremim{
+        font-size: 25px;
+    }
 }
 
 
@@ -351,7 +362,7 @@ margin: 90px 450px 50px 450px;
     <section id="inicio">
         <h3></h3>
         <div class=" Origem ">
-        <img id="minhafoto" src="./WhatsApp Image 2025-06-12 at 11.36.04.jpeg" alt=""
+        <img id="minhafoto" src="/WhatsApp Image 2025-06-12 at 11.36.04.jpeg" alt=""
         height="300">
         <div id="escritacmç">
         <p>Ola, meu nome é Pedro</p>
@@ -362,8 +373,7 @@ margin: 90px 450px 50px 450px;
 <section id="lembranças">
     <div>
         <div class="imagemlembrança">
-        <div class="imagem">
-            <img id="fotosobremim" src="./WhatsApp Image 2025-05-29 at 11.15.42.jpeg">
+        <div id="fotosobremim" class="imagem">
         </div>
        <div id="escritasobremim"><h4> Sobre mim </h4>
         <p id="sobremim"> Eu tenho 15 anos, moro em Ivatuba no Paraná desde que eu nasci, entrei na escola adventista em 2023, o que me fez conhecer muito dessa realidade
